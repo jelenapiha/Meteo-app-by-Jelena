@@ -14,11 +14,12 @@
   <body>
     <div class="document">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter city..."
             required
+            id="search-form-input"
             class="search-form-input" />
           <input type="submit" value="submit" class="search-form-button" />
         </form>
@@ -26,7 +27,7 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="weather-app-city">Paris</h1>
+            <h1 class="weather-app-city" id="city">Paris</h1>
             <p class="weather-app-details">
               Saturday 13:30 <br />
               Humidity <strong>66%</strong> , wind <strong>2 km/h</strong>
@@ -49,5 +50,6 @@
         <a href="https://meteo-app-by-jelena.netlify.app/">hosted on Netlify</a>
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
