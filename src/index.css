@@ -20,7 +20,7 @@ body {
   padding: 15px 20px;
 }
 .search-form-button {
-  background: rgba(182, 81, 182, 0.619);
+  background: rgba(129, 44, 129, 0.619);
   border: none;
   border-radius: 6px;
   color: white;
@@ -42,7 +42,7 @@ body {
   line-height: 24px;
 }
 .weather-app-details strong {
-  color: rgba(182, 81, 182, 0.619);
+  color: rgba(129, 44, 129, 0.619);
 }
 .weather-app-temperature-container {
   display: flex;
@@ -63,17 +63,17 @@ body {
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 .weather-forecast-date {
   font-size: 16px;
   color: black;
   opacity: 0.5;
 }
-.weather-forecast-temperature {
+.weather-forecast-temperatures {
   font-size: 13px;
-}
-.weather-forecast-temperature-min {
-  opacity: 0.5;
+  color: rgba(129, 44, 129, 0.619);
 }
 main {
   padding: 30px 0;
